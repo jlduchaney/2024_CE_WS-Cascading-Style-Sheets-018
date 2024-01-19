@@ -1,0 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+MATH
+
+100/100 body
+
+100/100 div
+50 + 50 = 100
+
+50/100 section
+
+section-big
+5/10 + 40/80 + 5/10 = 50/100
+
+section-small
+20/40 + 10/20 + 20/40 = 50/100
+*/
+
+body{
+	font-family:Questrial, Arial, Helvetica, sans-serif;
+	background:url("sunrise.jpg") 0px 0px / cover no-repeat fixed;
+}
+div{
+	box-sizing:border-box;
+	float:left;
+	width:50%;
+	margin:0 auto;
+	padding:10%;
+}
+section{
+	box-sizing:border-box;
+}
+.big{
+	float:right;
+	background: url("sunset.jpg");
+	width:25em;
+	height:25em;
+	padding:5em;
+	color:#c8c1a4;
+	font-size:1em;
+	text-shadow: 0px 0px 3em #a58b98, 0px 0px 2em #dfcea3;
+}
+.small{
+	float:left;
+	background:#674c77;
+	width:3.15em;
+	height:3.15em;
+	border:.05em solid #a36783;
+	padding:1.6em 0em 0em 1.2em;
+	color: #a58b98;
+	font-size:3em;
+	text-decoration:line-through #a36783 double .025em;
+}
